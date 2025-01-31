@@ -26,6 +26,12 @@ footer = """
             text-shadow: 0px 0px 15px red;
             animation: colranim 15s ease infinite;
         }
+	@keyframes gradientAnimation 
+        {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
         @keyframes colranim {
         0%{
             text-shadow: 0px 0px 15px red;
