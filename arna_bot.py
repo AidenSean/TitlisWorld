@@ -6,9 +6,9 @@ from langchain_core.runnables import RunnablePassthrough
 
 api_key = st.secrets["API_KEY"]
 st.set_page_config(page_title="Titli AI⭐🌟🌍👽🤖☄",page_icon="💩")
-st.markdown("<h1 class=hdr>Neutron</h1>",True)
+st.markdown("<h1 class=hdr>Cutie AI</h1>",True)
 
-model=ChatGoogleGenerativeAI(google_api_key=api_key,model="gemini-2.0-pro")
+model=ChatGoogleGenerativeAI(google_api_key=api_key,model="gemini-1.5-pro")
 st.markdown('''#### Meowww 😺.''')
 
 msgg=st.text_input("What's the matter ????")
